@@ -1,5 +1,6 @@
 # WP-Healer ULTRA+ (Türkçe)
 Modüler WordPress Onarım, Teşhis ve Optimizasyon Aracı
+## ÜCRETSİZ VE KOLAY KULLANIM
 
 Bu proje; WordPress, WooCommerce ve sunucu ortamlarını derinlemesine analiz edip hataları kullanıcı onayıyla güvenli biçimde düzelten tam kapsamlı bir CLI aracıdır.
 
