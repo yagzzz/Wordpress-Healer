@@ -1,4 +1,4 @@
-📘 WP-Healer PRO+ (Türkçe Sürüm)
+###📘 WP-Healer PRO+ (Türkçe Sürüm)
 WordPress Otomatik Onarım ve Optimizasyon Aracı
 Başlangıç • Standart • Gelişmiş • Gelişmiş+ Modları ile tam koruma
 WP-Healer PRO+, WordPress kurulumlarında karşılaşılan hataları otomatik olarak algılayan ve her adımda kullanıcıya sorarak güvenli şekilde düzelten gelişmiş bir onarım betiğidir.
@@ -6,7 +6,7 @@ WordPress yolunu otomatik bulur, wp-config dosyasından veritabanı bilgilerini 
 
 
 
-📂 Klasör Yapısı (Türkçe)
+##📂 Klasör Yapısı (Türkçe)
 Proje şu şekilde düzenlenmiştir:
 
 wp-healer/
@@ -24,7 +24,7 @@ Tamamen Türkçe proje standardına uygun şekilde düzenlenmiştir.
 
 
 
-🚀 Öne Çıkan Özellikler
+##🚀 Öne Çıkan Özellikler
 🎯 Otomatik Tespit
 WordPress kurulum yolunu otomatik bulur
 wp-config içinden DB bilgilerini güvenle okur
@@ -37,7 +37,7 @@ Eksik index.php dosyası kontrolü
 
 
 
-🚀 Önbellek & Cache Analizi
+##🚀 Önbellek & Cache Analizi
 Birden fazla cache eklentisi çakışmasını tespit eder
 FlyingPress yapılandırma onarımı
 LiteSpeed, WP Rocket, Autoptimize, W3TC taraması
@@ -45,7 +45,7 @@ wp-content/cache temizliği (izinli)
 
 
 
-🛒 WooCommerce Destek
+##🛒 WooCommerce Destek
 wc_sessions, wc_orders, wc_cart tablolarını kontrol eder
 WooCommerce sepet & checkout hatalarını tespit eder
 REST API /cart testleri
@@ -62,7 +62,7 @@ Güvenlik seviyesi önerisi
 
 
 
-🧩 Onarım Modları
+#🧩 Onarım Modları
 Betik çalıştığında aşağıdaki menü sunulur:
 1) Başlangıç Onarımı     (çok güvenli)
 2) Standart Onarım       (önerilen)
@@ -70,7 +70,7 @@ Betik çalıştığında aşağıdaki menü sunulur:
 4) Gelişmiş+ Onarım      (tam kapsamlı)
 
 
-🟢 1) Başlangıç Onarımı
+#🟢 1) Başlangıç Onarımı
 En güvenli, risksiz onarım türüdür:
 WordPress dizin doğrulama
 Dosya izinleri düzeltme
@@ -82,7 +82,7 @@ Veritabanına dokunmaz.
 Yeni kullanıcılar için tavsiye edilir.
 
 
-🟡 2) Standart Onarım
+#🟡 2) Standart Onarım
 Başlangıç + ek sistem tamiri:
 Veritabanı bağlantı testi
 wp-config optimizasyonu (memory limit, cron)
@@ -93,7 +93,7 @@ Symlink temizleme
 WooCommerce mağazaları ve aktif siteler için ideal.
 
 
-🔥 3) Gelişmiş Onarım
+#🔥 3) Gelişmiş Onarım
 Standart + wp-cli tabanlı derin analiz:
 ✔ wp-cli doğrulama ve güvenlik
 wp core verify-checksums
@@ -110,13 +110,13 @@ fragments AJAX testi
 Geliştiriciler için özel mod.
 
 
-🧨 4) Gelişmiş+ Onarım (PRO+)
+#🧨 4) Gelişmiş+ Onarım (PRO+)
 En kapsamlı moddur.
 Gelişmiş mod + ekstra analizler:
 
 
 
-🔍 Gelişmiş Malware Tarayıcı
+#🔍 Gelişmiş Malware Tarayıcı
 base64_decode
 shell_exec
 system()
@@ -129,7 +129,7 @@ Minify ve Rocket Loader uyumluluk analizi
 
 
 
-🧪 SSH & Sistem Analizi
+#🧪 SSH & Sistem Analizi
 ping testi
 disk kullanımı
 uptime
@@ -138,18 +138,15 @@ Bu mod WordPress, WooCommerce ve sunucu düzeyinde tam kapsamlı teşhis sunar.
 
 
 
-📦 Kurulum
+##📦 Kurulum
 git clone https://github.com/yagzzz/Wordpress-Healer
 chmod +x wp-healer.sh
-
-
-
 ▶ Çalıştırma
 ./wp-healer.sh
 
 
 
-🧪 Örnek Çalışma Çıktısı
+##🧪 Örnek Çalışma Çıktısı
 WordPress dizini bulundu: /home/site/public_html
 DB bağlantısı başarılı
 Önbellek eklentileri taranıyor...
@@ -160,7 +157,7 @@ wp-cli bulundu, gelişmiş işlemler aktif
 
 
 
-⚠ Önemli Uyarı
+##⚠ Önemli Uyarı
 Bu betik hiçbir dosyayı KULLANICI ONAYI OLMADAN silmez.
 Yine de kullanım öncesi:
 ✔ Dosya yedeği
@@ -169,6 +166,6 @@ alınması tavsiye edilir.
 
 
 
-📜 Lisans
+#📜 Lisans
 Bu proje MIT Lisansı ile sunulmaktadır.
 Dilediğiniz gibi kullanabilir, değiştirebilir ve dağıtabilirsiniz.
