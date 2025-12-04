@@ -1,0 +1,18 @@
+[32m[✓][0m Log dizini: /home/yagobaba/Masaüstü/Wordpress-healer-v3/logs/2025-12-04_14-43-56
+
+[1m[34m========== Sistem Özeti ==========[0m
+- OS:           Linux Mint 22.1 (Xia)
+- Kernel:       6.8.0-88-generic
+- RAM Toplam:    MB
+- CPU Çekirdek: 24
+- Disk Kullanım: 8% (129G/1,8T)
+- PHP:          bulunamadı
+- MySQL/MariaDB: bulunamadı
+
+[1m[34m========== Sistem Bazlı Öneriler ==========[0m
+/home/yagobaba/Masaüstü/Wordpress-healer-v3/modules/system.sh: 46. satır: [: : tamsayı ifadesi bekleniyordu
+[32m[✓][0m RAM miktarı çoğu WooCommerce sitesi için yeterli seviyede.
+[32m[✓][0m CPU çekirdek sayısı iyi (24).
+
+[1m[34m========== WordPress Dizini ve Veritabanı Bilgileri ==========[0m
+WordPress dizinini elle gir (/home/.../public_html): 
