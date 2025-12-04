@@ -225,7 +225,7 @@ Bu sayede kendi istatistik dosyalarınızı merkezî bir yerde biriktirebilir, s
 ```bash
 git clone https://github.com/yagzzz/Wordpress-Healer
 cd Wordpress-Healer
-chmod +x wp-healer-ultra.sh
+chmod +x wp-healer.sh
 ```
 
 ---
@@ -233,7 +233,7 @@ chmod +x wp-healer-ultra.sh
 ## ▶ Çalıştırma
 
 ```bash
-./wp-healer-ultra.sh
+./wp-healer.sh
 ```
 
 Ardından menüden bir mod seçersiniz.
